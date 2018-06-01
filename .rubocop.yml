@@ -1,0 +1,48 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+      - 'vendor/**/*'
+      - 'test/fixtures/**/*'
+      - 'tmp/**/*'
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/AbcSize:
+  Exclude:
+    - 'test/**/*'
+
+Style/CaseEquality:
+  Exclude:
+    - 'test/**/*'
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Naming/ConstantName:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Exclude:
+    - 'test/**/*'
+
+Lint/Void:
+ Exclude:
+    - 'test/**/*'
+
+
